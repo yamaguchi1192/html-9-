@@ -15,13 +15,14 @@
 
 main{
   width: 100%;
-  margin: 50px auto;
+ 
 }
 
 .step-box{
   float: left;
-  width: 100%;
+  width: 30%;
   margin-right: 30px;
+  margin-bottom: 20px;
   padding: 10px;
   position: relative;
   border: 1px solid #eee;
@@ -36,7 +37,6 @@ main{
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
-  margin-top: 50px;
 }
 
 .step-img2{
@@ -71,16 +71,14 @@ main{
 @media screen and (max-width:768px){
   main{
     width: 90%;
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
 
     }
+.step-box{
 
-.step-box1{
-
-  margin-top: 50px;
+  width: 100%;
+  margin-bottom: 20px;
 }
-
-.step-box2{
-margin-top: 20px;
-}}
+}
